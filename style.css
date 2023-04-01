@@ -1,6 +1,7 @@
 html{
     /* font-family: "Roboto", Verdana, Serif; */
     font-family: 'Playfair Display';
+    scroll-behavior: smooth;
 }
 body{
     display: block;
@@ -13,16 +14,22 @@ body{
 }
 h2, p, .smallText{
     color: #D0B6B6;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
+}
+
+h2{
+    font-size: 96px;
+}
+p{
+    font-size: 64px;
 }
 .upper_menu{
+    position: fixed;
     display: flex;
     top: 0px;
-    position: relative;
     height: 193px;
-    background: linear-gradient(180deg, #DE0000 0%, rgba(141, 0, 0, 0.635417) 54.17%, rgba(0, 0, 0, 0) 100%);
-    
-    width: 101%;
+    background: linear-gradient(180deg, #DE0000 0%, rgba(141, 0, 0, 0.635417) 54.17%, rgba(0, 0, 0, 0) 100%);    
+    width: 100%;
     height: 193px;
 }
 .upper_menu img {
@@ -45,12 +52,12 @@ h2, p, .smallText{
     border: 3px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.navigation{
+.navigation {
     margin-left: 20%;
     margin-top: 2%;
     display: flex;
 }
-.nav-link{
+.nav-link {
     text-decoration: none;
     white-space: nowrap;
     padding: 30px 45px 30px 30px;
@@ -58,31 +65,34 @@ h2, p, .smallText{
     height: 63px;
     font-style: normal;
     font-size: 48px;
-    /* line-height: 64px;     */
     color: #D0B6B6;
 }
 
 .header{
     display: flex;    
     margin-left: 122px;
-    margin-top: 100px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 85px;
-    color: #D0B6B6;
+    margin-top: 200px;
+    
 }
+
 .header img{
-    margin-left: 100px;
     width: 864px;
     height: 674px;
-    border: 1px solid;
+    /* border: 1px solid black; */
 }
+.header h2 {
+    font-size: 80px;
+}
+.header p{
+    font-size: 50px;
+    margin-top: -70px;
+}
+
 .menu{
     display: flex;
 }
 .menu img{
+    /* border: 1px solid #000000; */
     width: 864px;
     height: 674px;
 }
@@ -90,10 +100,10 @@ h2, p, .smallText{
     display: block;
 }
 .textMenu h2{
-    font-size: 96px;
     text-align: center;
 }
 .textMenu p{
+    margin-top: -60px;
     font-size: 55px;
     text-align: center;
 }
@@ -110,7 +120,8 @@ h2, p, .smallText{
 }
 .socseti{
     display: block;
-    margin-bottom: -200px;
+    margin-bottom: -300px;
+    z-index: 20px;
 }
 .socseti h2{
     font-size: 96px;
@@ -128,6 +139,7 @@ h2, p, .smallText{
     margin-bottom: 50px;
 }
 .footer{
+    z-index: -1;
     position: absolute;
     margin-bottom: 0px;
     width: 100%;
