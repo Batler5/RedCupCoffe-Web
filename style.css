@@ -1,0 +1,107 @@
+html{
+    /* font-family: "Roboto", Verdana, Serif; */
+    font-family: 'Playfair Display';
+}
+body{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3883px;
+    background: #3C2727;
+    margin-top: 0;
+    margin-left: 0;
+}
+h2, p, .smallText{
+    color: #D0B6B6;
+    border: 1px solid #000000;
+}
+.upper_menu{
+    display: flex;
+    top: 0px;
+    position: relative;
+    height: 193px;
+    background: linear-gradient(180deg, #DE0000 0%, rgba(141, 0, 0, 0.635417) 54.17%, rgba(0, 0, 0, 0) 100%);
+    
+    width: 101%;
+    height: 193px;
+}
+.upper_menu img {
+    position: relative;
+    width: 143px;
+    height: 143px;
+    left: 102px;
+    top: 31px; 
+    border-radius: 71.5px;
+}
+.eclipse {
+    box-sizing: border-box;
+    border-radius: 71.5px;
+    position: absolute;
+    width: 143px;
+    height: 143px;
+    left: 102px;
+    top: 31px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 80.21%);
+    border: 3px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navigation{
+    margin-left: 20%;
+    margin-top: 2%;
+    display: flex;
+}
+.nav-link{
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 30px 45px 30px 30px;
+    width: auto;
+    height: 63px;
+    font-style: normal;
+    font-size: 48px;
+    /* line-height: 64px;     */
+    color: #D0B6B6;
+}
+/* .Rectangle{
+    position: relative;
+    width: 100%;
+    height: 193px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(58, 0, 0, 0.93);
+} */
+.header{
+    display: flex;    
+    margin-left: 122px;
+    margin-top: 305px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    color: #D0B6B6;
+}
+.menu{
+    display: flex;
+}
+.textMenu{
+    display: block;
+}
+.textMenu h2{
+    font-size: 96px;
+    text-align: center;
+}
+.textMenu p{
+    font-size: 55px;
+    text-align: center;
+}
+.aboutUs{
+    display: block;
+}
+.socseti{
+    display: flex;
+}
+.razdel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
