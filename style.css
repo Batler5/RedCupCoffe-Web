@@ -61,19 +61,11 @@ h2, p, .smallText{
     /* line-height: 64px;     */
     color: #D0B6B6;
 }
-/* .Rectangle{
-    position: relative;
-    width: 100%;
-    height: 193px;
-    left: 0px;
-    top: 0px;
 
-    background: rgba(58, 0, 0, 0.93);
-} */
 .header{
     display: flex;    
     margin-left: 122px;
-    margin-top: 305px;
+    margin-top: 100px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
@@ -81,8 +73,18 @@ h2, p, .smallText{
     line-height: 85px;
     color: #D0B6B6;
 }
+.header img{
+    margin-left: 100px;
+    width: 864px;
+    height: 674px;
+    border: 1px solid;
+}
 .menu{
     display: flex;
+}
+.menu img{
+    width: 864px;
+    height: 674px;
 }
 .textMenu{
     display: block;
@@ -98,10 +100,40 @@ h2, p, .smallText{
 .aboutUs{
     display: block;
 }
+.aboutUs h2{
+    font-size: 96px;
+    text-align: center;
+}
+.aboutUs p{
+    font-size: 40px;
+    margin-left: 77px;
+}
 .socseti{
+    display: block;
+    margin-bottom: -200px;
+}
+.socseti h2{
+    font-size: 96px;
+    text-align: center;
+}
+.socIMG{
     display: flex;
 }
-.razdel{
+.socIMG img{
+    margin-left: 15%;
+}
+.razdel img{
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.footer{
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.footer img {
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
 }
