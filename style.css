@@ -16,23 +16,33 @@ h2, p, .smallText{
     /* border: 1px solid #000000; */
 }
 .wrapper{
-    max-width: auto;
+    max-width: 1640px;
     margin: 0 auto;
 }
 
 h2{
     font-size: 96px;
+    z-index: 999;
 }
 p{
     font-size: 64px;
+    z-index: 999;
+}
+.rectangle{
+    position: fixed;
+    display: flex;
+    top: 0px;
+    height: 193px;
+    width: 1000rem;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #DE0000 0%, rgba(141, 0, 0, 0.635417) 54.17%, rgba(0, 0, 0, 0) 100%);    
 }
 .upper_menu{
     position: fixed;
     display: flex;
     top: 0px;
     height: 193px;
-    background: linear-gradient(180deg, #DE0000 0%, rgba(141, 0, 0, 0.635417) 54.17%, rgba(0, 0, 0, 0) 100%);    
-    width: 100%;
+    width: 100rem;
     justify-content: space-between;
 }
 .upper_menu img {
@@ -159,6 +169,6 @@ p{
     height: 600px;
     position: absolute;
     margin-bottom: 0px;
-    width: 100%;
+    width: 100rem;
 }
 
