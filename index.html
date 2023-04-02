@@ -9,16 +9,16 @@
     <link rel="icon" href="images/logo.png">
 </head>
 <body>
-    <div class="upper_menu">
+    <div class="wrapper">
+          <div class="upper_menu">
         <img src="images/logo.png" alt="123">
         <div class="eclipse"></div>        
-        <div class="navigation">
-            <a class="nav-link" href="#">Главная</a>  
-            <a class="nav-link" href="#menu">Меню</a>
-            <a class="nav-link" href="#aboutUs">О нас</a>
-            <a class="nav-link" href="#footer">Связь с нами</a>             
-        </div>  
-        <div class="Rectangle"></div>                     
+        <ul class="navigation">
+            <li><a class="nav-link" href="#">Главная</a></li>
+            <li><a class="nav-link" href="#menu">Меню</a></li>
+            <li><a class="nav-link" href="#aboutUs">О нас</a></li>
+            <li><a class="nav-link" href="#footer">Связь с нами</a></li>             
+        </ul>                    
     </div>    
     <div class="header">
         <div class="headMenu">
@@ -32,7 +32,7 @@
     <div class="razdel">
         <img src="images/razdel.png" alt="">
     </div>    
-    <div class="menu">
+    <div class="menu" id="menu">
         <img src="images/menu.png" alt="">
         <div class="textMenu">
             <h2>Меню</h2>
@@ -44,23 +44,24 @@
     <div class="razdel">
         <img src="images/razdel.png" alt="">
     </div>
-    <div class="aboutUs">
+    <div class="aboutUs" id="aboutUs">
         <h2>О нас</h2>
         <p>Если Вы в поисках «того самого», своего места, в котором уже с первого<br/>взгляда чувствуется тепло и душевность, радушие и внимательное <br/>отношение к каждой детали, если Вам не хочется видеть наигранность и <br/>пафос, а хочется зайти в душевную семейную кофейню и выпить <br/>согревающий напиток, то предлагаем Вам остановиться в поисках, ведь <br/>кофейня «Red Cup Coffee» именно то, что Вам нужно.Только <br/>свежеобжаренный кофе способен на 100% раскрыть свой вкусовой <br/>потенциал. Кофе, который мы варим, уникален для белорусского рынка, <br/>т.к. поставляется европейскими трейдерами зеленого зерна, согласно <br/>принципам direct trade, что дает возможность привозить именно тот <br/>кофе, который будет соответствовать критериям качества, а главное – <br/>будет нравиться и удивлять. Мы работаем только со 100% Арабикой. <br/>Хорошего кофе должно быть много!</p>
     </div>
     <div class="razdel">
         <img src="images/razdel.png" alt="">
     </div>
-    <div class="socseti">
+    <div class="socseti" id="footer">
         <h2>Наши социальные сети</h2>
         <div class="socIMG">
-            <img src="images/inst.png" alt="">
-            <img src="images/vk.png" alt="">
-            <img src="images/geo.png" alt="">
+            <a  href="https://www.instagram.com/red_cup_pinsk/"><img src="images/inst.png" alt="1"></a>
+            <a href="https://vk.com/red_cup_pinsk"><img src="images/vk.png" alt="1"></a>
+            <a href="https://www.google.by/maps/place/%D0%9A%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8F+RED+CUP/@52.168289,26.0899279,17.75z/data=!4m6!3m5!1s0x4727a1b2d1b7d1c9:0xccd22cacbfe8b76!8m2!3d52.1684182!4d26.0894881!16s%2Fg%2F11gd1rxkw2"><img src="images/geo.png" alt="1"></a>
         </div>      
     </div>
     <div class="footer">
         <img src="images/footer.png" alt="">
     </div>
+    </div>  
 </body>
 </html>
